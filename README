@@ -1,0 +1,63 @@
+### --------- Into:
+
+This is a quick READ ME document I'm putting together for installation and use
+of the My Favorite Color is application.
+
+### --------- Contents:
+
+1. Pre-requisites
+2. Running the application
+3. Adding new features
+
+### --------- Pre Requisites:
+
+1. Python 3.6:
+  A. Download and install from https://www.python.org/
+  B. During install, ensure to add Python to path (install option)
+
+2. PILLOW Library:
+  A. After installing Python run:
+    a. pip install Pillow
+  B. PILLOW is used for image manipulation in this application. It is highly
+     recommended to read through documentation before editing this app.
+  C. For more information go to:
+    c. https://python-pillow.org/
+
+### --------- Running the application:
+
+1. Navigate to file through the command line
+2. From the root directory which contains MyFavoriteColorsIs.py:
+  a. Type: python .\MyFavoriteColorsIs.py
+3. When application appears, Dropdown menu will appear with first OPTION entry
+4. Select desired option
+5. Press "RUN"
+6. Preview image
+7. Repeat steps 4-6 to heart's desire
+8. Select Quit or X to exit the application
+
+### --------- Adding new features:
+
+1. Adding new base image types (Cup, Shirt, etc.):
+  A. Identify desired image
+  B. Scale image to a 300x300 PNG where desired item is centered
+  C. Save as PNG to BaseImages folder
+
+2. Adding new color splotches:
+  A. Identify desired splotches
+  B. Scale to size of 150 x 150 pixels
+  C. Saves as PNG with transparent background to ColorImages
+
+3. Adding new images groups
+  A. Create new folder with group type in TopImages
+    a. MUST be one word with no spaces
+    b. Recommended to start with capital letter
+  B. Identify images for new Top images
+  C. Scale identified images to 55 X 75 size and place in new directory
+  D. Images MUST have a transparent background and be saved in PNG format
+
+4. Adding new Fonts
+  A. Identify desired font
+    a. Can download from online
+    b. May also copy out of C:\Windows\Fonts for Windows users
+  B. Move file to Fonts Directory
+  C. Adjust script to utilize Font (GUI selection not enabled) on Line 71
